@@ -1,12 +1,11 @@
-import './App.css'
-import './companents/ProfileCard'
+import './index.css'
 
-import ProfileCard from './companents/ProfileCard'
+import BookList from './homeWork/BookList'
 
 export default function App() {
   return (
     <>
-    <ProfileCard/>
+  <BookList/>
     </>
   )
 }

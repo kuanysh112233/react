@@ -1,15 +1,13 @@
-import React from 'react'
+import React from 'react' 
 import '../App.css'
 
-export default function ProfileCard() {
+export default function ProfileCard(props){
     return (
       <div>
-      <h1>Менің визит картам</h1>
-    <div className="card">
-        <p><strong>Аты-жөні:</strong> Name Surname</p>
-        <p>Мамандығы: FullStack Developer</p>
-        <p>Қала: Almaty, KZ</p>
-    </div>
-  </div>
+        <img src={props.img} alt="" />
+        <h2>{props.name}</h2>
+        <p>{props.bio}</p>
+        <p>Ночь самной {props.price} $</p>
+      </div>
     )
   }
