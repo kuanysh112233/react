@@ -1,0 +1,23 @@
+.nav{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background: linear-gradient(135deg, blue, red) ;
+    margin-top: 7px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(187, 1, 184);
+}
+.blue:hover{
+    color: blue;
+}
+.bluered:hover{
+    color:rgba(11, 26, 136, 0.303);
+}
+.red:hover{
+    color: red;
+}

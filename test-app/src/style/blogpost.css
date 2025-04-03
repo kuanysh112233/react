@@ -1,0 +1,14 @@
+.article{
+    background: linear-gradient(135deg, red, blue);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 24px 0px 24px 20px  ;
+    margin-top: 7px;
+    color: rgb(103, 2, 101);
+    transition-duration: 1s ;
+}
+
+.article:hover{
+    transform: translateY(-5px);
+}
